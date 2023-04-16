@@ -28,7 +28,7 @@ jobs:
       with:
         context: ${{ env.context }}
         tags: ${{ env.image_name_controller }}
-        platforms: linux/arm64,linux/amd64
+        platforms: linux/arm64,linux/amd64,linux/arm
         push: true
       env:
         context: ./controller
